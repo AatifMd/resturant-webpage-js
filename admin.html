@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="admin.css">
+    <title>Admin Page</title>
+</head>
+<body>
+    <div class="admin-container">
+        <h2>Admin Page</h2>
+        <form action="#" id="add-item-form">
+            <input type="text" id="title" placeholder="Title" required>
+            <input type="text" id="description" placeholder="Description" required>
+            <input type="text" id="imageURL" placeholder="Image URL" required>
+            <input type="number" id="price" placeholder="Price" required>
+            <input type="number" id="ratings" placeholder="Ratings" required>
+            <button type="submit">Add Item</button>
+        </form>
+        <button onclick="window.location.href='menu.html'">View Menu</button>
+        
+        <div class="error-msg" id="error-msg"></div>
+    </div>
+    <script src="admin.js"></script>
+</body>
+</html>

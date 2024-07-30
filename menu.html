@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Menu Page</title>
+  <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+  <div class="menu-container">
+    <div class="heading">
+        <button onclick="window.location.href='admin.html'">Back to Admin</button>
+    <h2>Menu Items</h2>
+    <button class="logout-button" id="logout-button">Logout</button>
+</div>
+    <div id="menu-items"></div>
+  </div>
+
+  <div id="edit-form-popup" class="popup">
+    <form id="edit-form">
+        <h3>Edit Item</h3>
+        <input type="number" id="edit-price" placeholder="New Price">
+        <input type="number" id="edit-ratings" placeholder="New Ratings">
+        <button type="submit">Save Changes</button>
+        <button type="button" onclick="closeEditForm()">Cancel</button>
+    </form>
+</div>
+  <script src="menu.js"></script>
+</body>
+</html>
