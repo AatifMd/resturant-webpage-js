@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#menu-items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+}
+
+.menu-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    background-color: transparent;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(217, 208, 208, 0.1);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 200px;
+    height: 350px;   
+    
+}
+
+.menu-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+#pagination-controls {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#pagination-controls button {
+    margin: 0 5px;
+    padding: 10px 15px;
+    border: 1px solid #007BFF;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+}
+
+#pagination-controls button:hover {
+    background-color: #0056b3;
+}
+
+.menu-container{
+    width: 90%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2eaea;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    
+}
+.menu-container h2{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.controls{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.controls label{
+    margin-right: 10px;
+}
+.controls select, .controls input{
+    margin-right: 10px;
+}
+.controls select{
+    padding: 10px;
+}
+.controls span{
+    margin-left: 5px;
+    margin-right: 15px;
+}
+.menu-item button {
+    margin: 5px;
+    padding: 5px 20px;
+    border: none;
+    background-color:  #4f7cac;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+   
+  }
+  
+
+.menu-item button:hover {
+    background-color: #0056b3;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #218838;
+}

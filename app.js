@@ -1,4 +1,10 @@
-document.getElementById('login-form').addEventListener('submit', function(e) {
+document.addEventListener('DOMContentLoaded', function() {
+
+
+  const loginForm = document.getElementById('login-form');
+  if(loginForm){
+
+  loginForm.addEventListener('submit', function(e) {
     e.preventDefault();
   
     const email = document.getElementById('email').value;
@@ -25,4 +31,9 @@ document.getElementById('login-form').addEventListener('submit', function(e) {
       document.getElementById('error-message').innerText = 'An error occurred. Please try again later.';
     });
   });
+}
+  else{
+    console.error('Login form not found');
+  }
   
+})

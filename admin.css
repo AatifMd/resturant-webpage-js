@@ -29,11 +29,11 @@ body {
 
 .admin-container form {
     width: 100%;
-    padding-right: 10px;
+    
 }
 
 .admin-container input {
-    width: 95%;
+    width: 93%;
     padding: 10px;
     margin: 10px 0;
     border: 1px solid #ddd;
@@ -50,7 +50,6 @@ body {
     cursor: pointer;
     margin: 10px 0;
 }
-
 .admin-container button:hover {
     background-color: #0056b3;
 }
